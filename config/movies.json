@@ -11,6 +11,18 @@
         "bengaluru": "https://www.district.in/movies/the-paradise-movie-tickets-in-bengaluru-MV185027",
         "chennai": "https://www.district.in/movies/the-paradise-movie-tickets-in-chennai-MV185027"
       }
+    },
+    {
+      "slug": "hanuman-ansh",
+      "title": "Hanuman Ansh",
+      "release": "2026-09-11",
+      "fandangoId": "247186",
+      "district": {
+        "chennai": "https://www.district.in/movies/hanuman-ansh-movie-tickets-in-chennai-MV225612",
+        "bengaluru": "https://www.district.in/movies/hanuman-ansh-movie-tickets-in-bengaluru-MV225612",
+        "hyderabad": "https://www.district.in/movies/hanuman-ansh-movie-tickets-in-hyderabad-MV225612",
+        "mumbai": "https://www.district.in/movies/hanuman-ansh-movie-tickets-in-mumbai-MV225612"
+      }
     }
   ]
 }
