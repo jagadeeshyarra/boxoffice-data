@@ -1,0 +1,16 @@
+{
+  "movies": [
+    {
+      "slug": "the-paradise",
+      "title": "The Paradise",
+      "release": "2026-09-24",
+      "until": "2026-10-08",
+      "fandangoId": "246366",
+      "district": {
+        "hyderabad": "https://www.district.in/movies/the-paradise-movie-tickets-in-hyderabad-MV185027",
+        "bengaluru": "https://www.district.in/movies/the-paradise-movie-tickets-in-bengaluru-MV185027",
+        "chennai": "https://www.district.in/movies/the-paradise-movie-tickets-in-chennai-MV185027"
+      }
+    }
+  ]
+}

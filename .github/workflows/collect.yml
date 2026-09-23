@@ -1,0 +1,33 @@
+name: Collect box office data
+
+on:
+  schedule:
+    - cron: "5 * * * *"      # every hour at :05 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: collect
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Collect
+        run: npm run collect
+      - name: Commit data
+        run: |
+          git config user.name "boxoffice-bot"
+          git config user.email "boxoffice-bot@users.noreply.github.com"
+          git pull --rebase --autostash origin main || true
+          git add data
+          git diff --cached --quiet || git commit -m "data: $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
