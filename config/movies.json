@@ -6,10 +6,26 @@
       "release": "2026-09-24",
       "until": "2026-10-08",
       "fandangoId": "246366",
+      "regions": {
+        "telangana": ["hyderabad", "warangal", "karimnagar", "nizamabad", "khammam"],
+        "andhra-pradesh": ["vijayawada", "visakhapatnam", "guntur", "nellore", "tirupati", "rajahmundry", "kakinada", "kurnool"],
+        "karnataka": ["bengaluru"]
+      },
       "district": {
         "hyderabad": "https://www.district.in/movies/the-paradise-movie-tickets-in-hyderabad-MV185027",
-        "bengaluru": "https://www.district.in/movies/the-paradise-movie-tickets-in-bengaluru-MV185027",
-        "chennai": "https://www.district.in/movies/the-paradise-movie-tickets-in-chennai-MV185027"
+        "warangal": "https://www.district.in/movies/the-paradise-movie-tickets-in-warangal-MV185027",
+        "karimnagar": "https://www.district.in/movies/the-paradise-movie-tickets-in-karimnagar-MV185027",
+        "nizamabad": "https://www.district.in/movies/the-paradise-movie-tickets-in-nizamabad-MV185027",
+        "khammam": "https://www.district.in/movies/the-paradise-movie-tickets-in-khammam-MV185027",
+        "vijayawada": "https://www.district.in/movies/the-paradise-movie-tickets-in-vijayawada-MV185027",
+        "visakhapatnam": "https://www.district.in/movies/the-paradise-movie-tickets-in-visakhapatnam-MV185027",
+        "guntur": "https://www.district.in/movies/the-paradise-movie-tickets-in-guntur-MV185027",
+        "nellore": "https://www.district.in/movies/the-paradise-movie-tickets-in-nellore-MV185027",
+        "tirupati": "https://www.district.in/movies/the-paradise-movie-tickets-in-tirupati-MV185027",
+        "rajahmundry": "https://www.district.in/movies/the-paradise-movie-tickets-in-rajahmundry-MV185027",
+        "kakinada": "https://www.district.in/movies/the-paradise-movie-tickets-in-kakinada-MV185027",
+        "kurnool": "https://www.district.in/movies/the-paradise-movie-tickets-in-kurnool-MV185027",
+        "bengaluru": "https://www.district.in/movies/the-paradise-movie-tickets-in-bengaluru-MV185027"
       }
     },
     {
