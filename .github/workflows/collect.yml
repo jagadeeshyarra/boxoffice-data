@@ -2,7 +2,7 @@ name: Collect box office data
 
 on:
   schedule:
-    - cron: "5 * * * *"      # every hour at :05 UTC
+    - cron: "5,35 * * * *"   # every 30 mins at :05 and :35 UTC
   workflow_dispatch:
 
 permissions:
