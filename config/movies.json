@@ -1,6 +1,45 @@
 {
   "movies": [
     {
+      "slug": "jailer-2",
+      "title": "Jailer 2",
+      "release": "2026-10-14",
+      "fandangoId": "247862",
+      "regions": {
+        "tamil-nadu": ["chennai"],
+        "telangana": ["hyderabad"],
+        "karnataka": ["bengaluru"]
+      },
+      "district": {
+        "chennai": "https://www.district.in/movies/jailer-2-movie-tickets-in-chennai-MV187766",
+        "hyderabad": "https://www.district.in/movies/jailer-2-movie-tickets-in-hyderabad-MV187766",
+        "bengaluru": "https://www.district.in/movies/jailer-2-movie-tickets-in-bengaluru-MV187766"
+      }
+    },
+    {
+      "slug": "ranabaali",
+      "title": "Ranabaali",
+      "release": "2026-10-14",
+      "fandangoId": "247336",
+      "regions": {
+        "telangana": ["hyderabad"],
+        "andhra-pradesh": ["vijayawada", "visakhapatnam", "guntur", "nellore", "tirupati", "rajahmundry", "kakinada", "kurnool"],
+        "karnataka": ["bengaluru"]
+      },
+      "district": {
+        "hyderabad": "https://www.district.in/movies/ranabaali-movie-tickets-in-hyderabad-MV214106",
+        "vijayawada": "https://www.district.in/movies/ranabaali-movie-tickets-in-vijayawada-MV214106",
+        "visakhapatnam": "https://www.district.in/movies/ranabaali-movie-tickets-in-visakhapatnam-MV214106",
+        "guntur": "https://www.district.in/movies/ranabaali-movie-tickets-in-guntur-MV214106",
+        "nellore": "https://www.district.in/movies/ranabaali-movie-tickets-in-nellore-MV214106",
+        "tirupati": "https://www.district.in/movies/ranabaali-movie-tickets-in-tirupati-MV214106",
+        "rajahmundry": "https://www.district.in/movies/ranabaali-movie-tickets-in-rajahmundry-MV214106",
+        "kakinada": "https://www.district.in/movies/ranabaali-movie-tickets-in-kakinada-MV214106",
+        "kurnool": "https://www.district.in/movies/ranabaali-movie-tickets-in-kurnool-MV214106",
+        "bengaluru": "https://www.district.in/movies/ranabaali-movie-tickets-in-bengaluru-MV214106"
+      }
+    },
+    {
       "slug": "the-paradise",
       "title": "The Paradise",
       "release": "2026-09-24",
@@ -26,18 +65,6 @@
         "kakinada": "https://www.district.in/movies/the-paradise-movie-tickets-in-kakinada-MV185027",
         "kurnool": "https://www.district.in/movies/the-paradise-movie-tickets-in-kurnool-MV185027",
         "bengaluru": "https://www.district.in/movies/the-paradise-movie-tickets-in-bengaluru-MV185027"
-      }
-    },
-    {
-      "slug": "hanuman-ansh",
-      "title": "Hanuman Ansh",
-      "release": "2026-09-11",
-      "fandangoId": "247186",
-      "district": {
-        "chennai": "https://www.district.in/movies/hanuman-ansh-movie-tickets-in-chennai-MV225612",
-        "bengaluru": "https://www.district.in/movies/hanuman-ansh-movie-tickets-in-bengaluru-MV225612",
-        "hyderabad": "https://www.district.in/movies/hanuman-ansh-movie-tickets-in-hyderabad-MV225612",
-        "mumbai": "https://www.district.in/movies/hanuman-ansh-movie-tickets-in-mumbai-MV225612"
       }
     }
   ]
